@@ -1,10 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import ClassComponent from './ClassComponent.js';
+import FunctionComponent from './FunctionComponent';
+import File from './File';
+import DisplayJsx from './DisplayJsx';
+import CustomFunction from './CustomFunction';
+import Counter from './Counter';
+import Counter1 from './Counter1';
+import CounterHook from './CounterHook';
+import ChildClass from './ParentChildClass/ChildClass';
+import ParentClass from './ParentChildClass/ParentClass';
+import ParentFunction from './ParentChildFunction/ParentFunction';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div>
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +28,17 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      {/* <ClassComponent/>
+      <FunctionComponent/>
+      <File/>
+      <DisplayJsx/>
+      <CustomFunction/>
+      <Counter/>
+      <Counter1/>
+      <CounterHook/> */}
+      <ParentClass/>
+      <ParentFunction/>
     </div>
   );
 }
