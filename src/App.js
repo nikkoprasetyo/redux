@@ -11,6 +11,7 @@ import CounterHook from './CounterHook';
 import ChildClass from './ParentChildClass/ChildClass';
 import ParentClass from './ParentChildClass/ParentClass';
 import ParentFunction from './ParentChildFunction/ParentFunction';
+import RegionViewApi from './RegionView/RegionViewApi';
 
 function App() {
   return (
@@ -37,8 +38,10 @@ function App() {
       <Counter/>
       <Counter1/>
       <CounterHook/> */}
-      <ParentClass/>
-      <ParentFunction/>
+      {/* <ParentClass/>
+      <ParentFunction/> */}
+      {/* <DisplayJsx/> */}
+      <RegionViewApi/>
     </div>
   );
 }
